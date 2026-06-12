@@ -1,0 +1,52 @@
+.contact-page {
+    padding: 4rem 2rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+    color: var(--secondary-font-color);
+  }
+  
+  .contact-header h1 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-header p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .contact-icons a {
+    font-size: 2rem;
+    color: var(--primary-color);
+    transition: transform 0.2s ease;
+  }
+  
+  .contact-icons a:hover {
+    transform: scale(1.2);
+    color: var(--hover-color);
+  }
+  
+  .contact-footer-info {
+    font-size: 1rem;
+    color: var(--secondary-font-color);
+  }
+  
+  .contact-footer-info a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+  
+  .contact-footer-info a:hover {
+    text-decoration: underline;
+  }
+  

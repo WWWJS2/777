@@ -1,0 +1,76 @@
+.branches-container {
+    padding: 3rem 2rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+    color: var(--secondary-font-color);
+    text-align: center;
+  }
+  
+  .branches-title {
+    font-size: 2.2rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+  }
+  
+  .branches-subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .branches-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    max-width: 1100px;
+    margin: auto;
+  }
+  
+  .branch-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s ease;
+  }
+  
+  .branch-card:hover {
+    transform: translateY(-4px);
+  }
+  
+  .branch-image {
+    height: 80px;
+    margin-bottom: 1rem;
+  }
+  
+  .branch-name {
+    font-size: 1.3rem;
+    color: var(--primary-color);
+    margin: 0.5rem 0;
+  }
+  
+  .branch-address {
+    font-size: 0.95rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .branch-button {
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .branch-button:hover {
+    background-color: var(--hover-color);
+  }
+  

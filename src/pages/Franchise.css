@@ -1,0 +1,66 @@
+.franchise-container {
+    padding: 3rem 2rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+    color: var(--secondary-font-color);
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .franchise-content {
+    max-width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .franchise-text {
+    flex: 1;
+    min-width: 280px;
+  }
+  
+  .franchise-text h1 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+  }
+  
+  .franchise-text p {
+    margin-bottom: 1rem;
+    font-size: 1.05rem;
+    line-height: 1.7;
+  }
+  
+  .franchise-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .franchise-button:hover {
+    background-color: var(--hover-color);
+  }
+  
+  .franchise-image {
+    flex: 1;
+    min-width: 280px;
+    max-width: 450px;
+  }
+  
+  .franchise-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+  }
+  
